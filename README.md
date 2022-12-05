@@ -9,4 +9,11 @@
 - [프로젝트 보고서](data/%EC%A0%84%EB%B6%81%EA%B4%91%ED%95%9C%EB%A3%A8%EC%9B%90_%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_221208_%EA%B9%80%EB%8F%84%EC%9C%84.pptx.pptx.pdf)
 
 ## 주요 라이브러리
-
+- [전체 라이브러리](requirements.txt)
+- matplotlib==3.6.2
+- numpy==1.23.5
+- pandas==1.5.2
+- requests==2.28.1
+- streamlit==1.15.2
+- semver==2.13.0
+- scikit-learn==1.1.3
