@@ -3,7 +3,9 @@ import pandas as pd
 import sqlite3 
 import hashlib
 
-conn = sqlite3.connect('database.db')
+from tourism import runApp
+
+conn = sqlite3.connect('user/database.db', check_same_thread=False)
 c = conn.cursor()
 
 def make_hashes(password):
@@ -29,7 +31,7 @@ def login_user(username,password):
 def loginRunApp():
 
 	menu = ["로그인","회원가입"]
-	choice = st.sidebar.selectbox("사이드바",menu)
+	choice = st.sidebar.selectbox("메뉴",menu)
 
 	if choice == "로그인":
 		st.subheader("로그인 화면")
@@ -40,9 +42,11 @@ def loginRunApp():
 			hashed_pswd = make_hashes(password)
 
 			result = login_user(username,check_hashes(password,hashed_pswd))
-			if result:
 
+			if result:
 				st.success("{}님으로 로그인했습니다".format(username))
+				runApp()
+				
 
 			else:
 				st.warning("사용자의 이름 또는 비밀번호가 잘못되었습니다")

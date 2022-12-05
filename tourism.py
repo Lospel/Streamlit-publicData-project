@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+from about_html import about_html
 
 def Data_Load(path):
     df = pd.read_csv(path,encoding="euc-kr")
@@ -19,7 +20,7 @@ def runApp():
     tourism_data['Month'] = tourism_data['Year'].dt.month
     tourism_data['Year'] = tourism_data['Year'].dt.year
 
-    submenu = st.sidebar.selectbox("서브메뉴", ['통계', '그래프'])
+    submenu = st.sidebar.selectbox("서브메뉴", ['통계', '그래프', "분석결과"])
     if submenu == "통계":
         with st.expander("데이터_상세정보"):
             st.dataframe(tourism_data, width=700, height=300)
@@ -69,6 +70,7 @@ def runApp():
                 , hue="Year"
                 , kind="bar")
             st.pyplot(barPlot)
-
+    elif submenu == "분석결과":
+        st.markdown(about_html, unsafe_allow_html=True)
     else:
         pass

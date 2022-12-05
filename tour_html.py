@@ -5,29 +5,6 @@ tour_html = """
 <div id="container">
 <!-- sub page title : e -->
 <div id="txt">
-<form id="viewForm" method="get" name="viewForm">
-<input name="culPageNo" type="hidden" value="1"/>
-<input name="region" type="hidden" value=""/>
-<input name="searchCondition" type="hidden" value=""/>
-<input name="searchCondition2" type="hidden" value=""/>
-<input id="ccbaKdcd" name="ccbaKdcd" type="hidden" value="15"/>
-<input id="ccbaAsno" name="ccbaAsno" type="hidden" value="00330000"/>
-<input id="ccbaCtcd" name="ccbaCtcd" type="hidden" value="35"/>
-<input id="ccbaCpno" name="ccbaCpno" type="hidden" value="1353500330000"/>
-<input name="ccbaCndt" type="hidden" value=""/>
-<input name="s_kdcd" type="hidden" value=""/>
-<input name="s_ctcd" type="hidden" value=""/>
-<input id="ccbaCncl" name="ccbaCncl" type="hidden" value="1"/>
-<input name="stCcbaAsdt" type="hidden" value=""/>
-<input name="endCcbaAsdt" type="hidden" value=""/>
-<input name="header" type="hidden" value="view"/>
-<input name="returnUrl" type="hidden" value=""/>
-<input name="pageNo" type="hidden" value="1_1_1_0"/>
-<input name="p" type="hidden" value="multiSch"/>
-<input name="sortType" type="hidden" value=""/>
-<input name="sortOrd" type="hidden" value=""/>
-<input name="sngl" type="hidden" value=""/>
-</form>
 <!-- 컨텐츠 입력 : s -->
 <div class="hschDetail_box" data-s_kdcdarr="">
 <div class="hschDetail_tc">
@@ -109,9 +86,6 @@ tour_html = """
 <strong class="tit">문화재 설명</strong>
 <div class="txt-wrap txt-scroll">
 <p class="">신선의 세계관과 천상의 우주관을 표현한 우리나라 제일의 누원이다.<br/><br/>원래 이곳은 조선 세종 원년(1419)에 황희가 광통루라는 누각을 짓고, 산수를 즐기던 곳이었다. 1444년 전라도 관찰사 정인지가 광통루를 거닐다가 아름다운 경치에 취하여 이곳을 달나라 미인 항아가 사는 월궁속의 광한청허부(廣寒淸虛府)라 칭한 후 ‘광한루’라 이름을 부르게 되었다. 1461년 부사 장의국은 광한루를 보수하고, 요천의 맑은 물을 끌어다가 하늘나라 은하수를 상징하는 연못을 만들었다. <br/><br/>호수에는 지상의 낙원을 상징하는 연꽃을 심고, 견우와 직녀가 은하수에 가로막혀 만나지 못하다가 칠월칠석날 단 한번 만난다는 사랑의 다리 ‘오작교’를 연못 위에 설치하였다. 이 돌다리는 4개의 무지개 모양의 구멍이 있어 양쪽의 물이 통하게 되어 있으며, 한국 정원의 가장 대표적인 다리이다. <br/><br/>1582년 전라도 관찰사로 부임한 정철은 광한루를 크게 고쳐 짓고, 은하수 연못 가운데에 신선이 살고 있다는 전설의 삼신산을 상징하는 봉래·방장·영주섬을 만들어 봉래섬에는 백일홍, 방장섬에는 대나무를 심고, 영주섬에는 ‘영주각’이란 정자를 세웠다. 그러나 정유재란 때 왜구들의 방화로 모두 불타버렸다. <br/><br/>현재의 광한루는 1639년 남원부사 신감이 복원하였다. 1794년에는 영주각이 복원되고 1964년에 방장섬에 방장정이 세워졌다. 이 광한루원은 소설 『춘향전』에서 이도령과 춘향이 인연을 맺은 장소로도 유명하여, 1920년대에 경내에 춘향사를 건립하고 김은호 화백이 그린 춘향의 영정을 모셔 놓았다. 해마다 음력 5월 5일 단오절에는 춘향제가 열린다.</p>
-<p class="" style="display: none;">This renowned ancient public garden expresses the traditional Taoist cosmic view. Hwang Hui, a famous politician during the reign of King Sejong of the Joseon Dynasty, built a pavilion named Gwangtongnu Pavilion here in 1419 to enjoy the natural landscape. In 1444, Jeolla-do Governor Jeong In-ji fell in love with the scenery around the pavilion, claiming that it was as beautiful as the lunar palace Guanghandian, where the goddess of the moon, Heng’e, lived according to Chinese legend. Thereafter, the pavilion was called Gwanghallu, meaning "Moon Pavilion." In 1461, County Magistrate Jang Ui-guk repaired the pavilion and made a pond symbolizing the galaxy by drawing water from Yocheon Stream. Lotus flowers were planted in the pond to stand for paradise on earth, with a bridge named Ojakgyo or "Magpie Bridge" built over it. Legendary lovers Gyeonu (Herdsman) and Jingnyeo (Weaver) are said to meet on the bridge once a year on the seventh day of the seventh lunar month. With four arched sluices, Ojakgyo Bridge represents Korean garden bridges. Poet-governor Jeong Cheol ordered major repairs on the pavilion soon after taking office in 1582. He also had three legendary islands of the immortals - Bongnaeseom, Bangjangseom, and Yeongjuseom Islands -- built in the pond. Crape-myrtles were planted on Bongnaeseom Island, whereas bamboo was planted on Bangjangseom Island. A pleasure pavilion named Yeongjugak Pavilion was built on Yeongju Island. These were all burnt down during the Japanese invasions in 1582-1598, however. The present Gwanghallu Pavilion was rebuilt in 1639 by Namwon magistrate Sin Gam. Yeongjugak Pavilion was also rebuilt in 1794, with a new pavilion named Bangjangjeong Pavilion built on Bangjangseom Island. Gwanghallu Pavilion became widely known as the setting of the first rendezvous between the hero and heroine of the popular classical novel Chunhyangjeon (Story of Chunhyang). In 1920, a memorial shrine for Chunhyang was built in the garden, housing a portrait of the fictional heroine painted by Kim Eun-ho. The Chunhyang Festival is held annually on Dano, the fifth day of the fifth lunar month.</p>
-<p class="" style="display: none;">展现了神仙的世界观与天上宇宙观的我国第一楼苑。现在的广寒楼由南原府使申鉴于1639年复原。1794年复原瀛洲阁后，1964年又在方丈岛上建造了方丈亭。广寒楼是小说《春香传》中李道令与春香结缘的场所，因此闻名于世，20世纪20年代还建造了春香祠，供奉金殷镐画家绘制的春香图。每年农历五月五日端午节都会举行春香祭。</p>
-<p class="" style="display: none;">広寒楼苑は神仙の世界観と天上の宇宙観を表現した韓国第一の楼苑である。現在の広寒楼は1639年に南原府使申鑑が復元したものである。1794年には瀛州閣が復元され、1964年には方丈島に方丈亭が立てられた。この広寒楼苑は小説『春香伝』で李夢龍と春香が縁を結んだ場所として有名であり、1920年代には境内に春香祠を建立し、画伯金殷鎬が描いた春香の肖像画を奉っている。毎年旧暦の5月5日の端午節には春香祭が開かれる。</p>
 </div>
 </div>
 </div>
@@ -120,63 +94,6 @@ tour_html = """
 <div class="modal-backdrop"></div>
 <!-- /Modal -->
 </div>
-
-<script>
-										$('.hschDetail_tab_cont').hide();
-										$('.hschDetail_tab_cont:last').show();
-										$('#tabs li').click(function() {
-											$('#tabs li').removeClass('active');
-											$(this).addClass('active');
-											$('.hschDetail_tab_cont').hide()
-											var activeTab = $(this).find('a').attr('href');
-											$(activeTab).show();
-											return false;
-										});
-										$('.sub_tab_cont').hide();
-										$('.sub_tab_cont:first').show();
-										$('#subTab li').click(function() {
-											$('#subTab li').removeClass('active');
-											$(this).addClass('active');
-											$('.sub_tab_cont').hide()
-											var activeTab = $(this).find('a').attr('href');
-											$(activeTab).show();
-											return false;
-										});
-										$('.modal_tab_cont').hide();
-										$('.modal_tab_cont:first').show();
-										$('#modalTab li').click(function() {
-											$('#modalTab li').removeClass('active');
-											$(this).addClass('active');
-											$('.modal_tab_cont').hide()
-											var activeTab = $(this).find('a').attr('href');
-											$(activeTab).show();
-											return false;
-										});
-
-										//modal
-										const modale = $('.modale'),
-											backdrop = $('.modal-backdrop');
-										$('.openmodale').click(function(e) {
-											e.preventDefault();
-											modale.addClass('opened');
-											backdrop.addClass('show');
-											$('html').addClass('modal-opened');
-										});
-										$('.closemodale').click(function(e) {
-											e.preventDefault();
-											modale.removeClass('opened');
-											backdrop.removeClass('show');
-											$('html').removeClass('modal-opened');
-										});
-										$(document).mouseup(function(e) {
-											const LayerPopup = $('.modale');
-											if (LayerPopup.has(e.target).length === 0) {
-												LayerPopup.removeClass('opened');
-												backdrop.removeClass('show');
-												$('html').removeClass('modal-opened');
-											}
-										});
-										</script>
 <!-- //추가 -->
 <div id="explainBin">
 </div>
@@ -251,33 +168,6 @@ tour_html = """
 </dd>
 </dl>
 </div>
-<script type="text/javascript">
-	function fn_satitsfaction_ajax(){
-		
-		if(!$('input:radio[name=stsfdg]').is(':checked')){
-			alert('만족도를 체크해 주세요.');
-			return;
-		}
-			$.ajax({
-				url: '/heri/sft/insertSatisfaction.do',
-				type: 'POST',
-				data: $('form#satisfactionVO').serialize(),
-				dataType : 'text',
-				success: function(data){
-					if(data == 'Y'){
-						alert('만족도가 입력되었습니다.');	
-					}else if(data == 'N'){
-						alert('이미 입력하셨습니다.');
-					}else if(data == 'X'){
-						alert('만족도를 선택해 주세요.');
-					}
-					
-				},error: function(data){
-					alert('만족도가 입력되었습니다');
-				}
-			});
-	}
-</script>
 </input></input></input></input></input></input></input></input></input></input></input></form>
 <!-- 만족도평가 : e -->
 </div>
@@ -285,87 +175,6 @@ tour_html = """
 <!--content area : e-->
 </div>
 </div>
-
-<script>
-        //right_float
-        const right_float = $('#right_float');
-        const btn_close = $('#btn_close');
-        const addMenu = $('.addMenu');
-        const addMenu_cont = $('.addMenu-cont');
-        const pop_close = $('.pop-close');
-        const right_float_mask = $('.right-float-mask');
-    	
-		$('.btn.btn-favorite').mouseenter(function(){
-			var this_ = $(this);
-			right_float.addClass('opened');
-			setChaCookie('rightFloatYN', 'Y');
-		});
-			
-		right_float.mouseleave(function(){
-			$(this).removeClass('opened');
-			delChaCookie('rightFloatYN');
-		});
-	
-/*
-		$('.btn.btn-favorite').mouseenter(function(){
-			console.log('마우스 들어옴');
-			right_float.addClass('opened');
-			setChaCookie('rightFloatYN', 'Y');
-		});
-		
-		$('.btn.btn-favorite').click(function(){
-			if(right_float.hasClass('opened')){
-				right_float.removeClass('opened');
-				delChaCookie('rightFloatYN');
-			}
-		});
-*/
-        addMenu.on('click', function() {
-            right_float.addClass('active');
-            right_float_mask.show();
-            $('html').addClass('float-fixed');
-        });
-        pop_close.on('click', function() {
-            right_float.removeClass('active');
-            right_float_mask.hide();
-            $('html').removeClass('float-fixed');
-
-        });
-
-        //top, bottom 버튼 
-        const btn_top = $('#btn_top');
-        const btn_bottom = $('#btn_bottom');
-        btn_top.on('click', function(e) {
-            e.preventDefault();
-            $('html, body').animate({
-                scrollTop: 0
-            }, '50');
-        });
-        btn_bottom.on('click', function(e) {
-            e.preventDefault();
-            $('html, body').animate({
-                scrollTop: $(document).height()
-            }, '50');
-        });
-</script>
-<script>
-	loadMenu();
-	loadSearchText();
-	if(getChaCookie('rightFloatYN') == 'Y') {
-		//$("#btn_close").click();	
-		$('#right_float').addClass('opened');
-		$('.btn.btn-favorite').attr('id', 'btn_open');
-	}	
-</script>
-<!-- //right-float-->
-<!-- Naver Script -->
-<script src="//wcs.naver.net/wcslog.js"></script>
-<script>
-if(!wcs_add) var wcs_add = {};
-wcs_add["wa"] = "3382bda05a6c58";
-wcs_do();
-</script>
-<script src="//www.cha.go.kr/js/google_analytics.js"></script>
 <!-- Naver Script End -->
 <form accept-charset="utf-8" action="#" method="post" name="eform" target="_blank">
 <input name="content_name" type="hidden">
