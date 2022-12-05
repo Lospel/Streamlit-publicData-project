@@ -1,8 +1,8 @@
 about_html = """
 ## 광한루원_입장객_데이터분석 
 - 전체입장객
-    + <img src="http://localhost:8501/media/b2eb0113c5c8b2ea4ba32c5ed0c4f10dc4078ac17096d2ee164be1a6.png" width = "200" height="200">
-    + 이미지가 보이지 않으면 전체입장객 -> 바_플롯 데이터를 확인해주세요.
+    + <img src="https://lospel-streamlit-publicdata-project-app-fj7w3x.streamlit.app/~/+/media/f1075221a46915740d0ed03793b1b39090353be753378388bf4a37af.png" width = "200" height="200">
+
 - 분석 결과
     + 2020년 1월 : **서울경제 뉴스**에 따르면 2020년 1월 **소비자심리지수**가 최고치를 기록하였으며,
         **질병관리청**의 **국내 코로나19 확진자 2년 발생 보고서**에 따르면, 

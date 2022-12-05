@@ -145,7 +145,8 @@ tour_html = """
 <dd>
 <fieldset>
 <span>
-<input class="sts_radio" id="sts01" name="stsfdg" type="radio" value="5"/>
+<input class="sts_radio" id="sts01" name="stsfdg" type="radio" value="5"
+    onclick/>
 <label for="sts01">매우만족</label>
 </span>
 <span>
@@ -164,6 +165,7 @@ tour_html = """
 <input class="sts_radio" id="sts05" name="stsfdg" type="radio" value="1"/>
 <label for="sts05">매우불만족</label>
 </span>
+
 </fieldset>
 </dd>
 </dl>
