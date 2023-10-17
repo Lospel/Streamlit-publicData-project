@@ -15,12 +15,5 @@ def main():
   elif choice == '로그인 페이지':
     loginRunApp()
 
-  elif choice == 'About':
-    st.title("정보를 확인할 수 없습니다.")
-    st.write("분석 결과를 확인하고 싶으시면 로그인을 해주세요.")
-
-  else:
-    pass
-
 if __name__ == "__main__":
   main()
