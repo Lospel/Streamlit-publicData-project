@@ -7,7 +7,7 @@ from tour_html import tour_html
 
 
 def main():
-  menu = ["Home",'로그인 페이지', 'About']
+  menu = ["Home",'로그인 페이지']
   choice = st.sidebar.selectbox('메뉴', menu)
   if choice == "Home":
     st.markdown(tour_html, unsafe_allow_html=True)
